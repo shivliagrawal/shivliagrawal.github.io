@@ -2,7 +2,7 @@
   "name": "portfolioTemplate",
   "version": "2.0.0",
   "private": true,
-  "homepage": "http://shivliagrawal.github.io",
+  "homepage": "http://shivliagrawal.github.io/shivliagrawal.github.io",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
