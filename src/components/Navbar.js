@@ -19,13 +19,12 @@ const links = [
         active: 'about'
     },
     {
-        name: info.initials,
-        type: 'initials',
-        to: '',
-        active: 'home'
+        name: 'Resume',
+        to: 'resume',
+        active: 'resume'
     },
     {
-        name: 'Portfolio',
+        name: 'Projects',
         to: 'portfolio',
         active: 'portfolio'
     }
