@@ -10,7 +10,7 @@ export default function Portfolio({ innerRef }) {
                 container
                 justifyContent="space-between"
                 alignItems="space-between"
-                style={{ width: '1200px', height: '900px', display: 'flex' }} // Ensure Grid spans the desired dimensions
+                style={{ width: '800px', height: '600px', display: 'flex' }} // Ensure Grid spans the desired dimensions
             >
                 {info.portfolio.map((project, index) => (
                     <Grid
@@ -19,8 +19,8 @@ export default function Portfolio({ innerRef }) {
                         md={6}
                         key={index}
                         style={{
-                            width: '45%', // Adjust box size
-                            height: '45%', // Adjust box size
+                            width: '75%', // Adjust box size
+                            height: '75%', // Adjust box size
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
