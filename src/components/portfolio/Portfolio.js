@@ -14,7 +14,7 @@ export default function Portfolio({ innerRef }) {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                padding: '1rem',
+                paddingTop: '2rem', // Add padding to avoid top cut-off
                 boxSizing: 'border-box',
             }}
         >
@@ -30,7 +30,7 @@ export default function Portfolio({ innerRef }) {
                 {info.portfolio.map((project, index) => (
                     <Grid
                         item
-                        xs={6} // Ensure 2 items per row (12 grid system: 6+6 = 12)
+                        xs={6} // Two items per row (6+6 = 12)
                         key={index}
                         style={{
                             display: 'flex',
