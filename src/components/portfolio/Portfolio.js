@@ -9,14 +9,14 @@ export default function Portfolio({ innerRef }) {
             id="portfolio"
             ref={innerRef}
             style={{
-                width: '800px',
-                height: '600px',
-                padding: '1rem', // Add padding to prevent content cutoff
-                boxSizing: 'border-box', // Ensure padding is included in dimensions
+                width: '100vw',
+                height: '100vh',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
+                padding: '1rem', // Prevent content from touching edges
+                boxSizing: 'border-box',
             }}
         >
             <Grid
@@ -24,8 +24,12 @@ export default function Portfolio({ innerRef }) {
                 justifyContent="center"
                 alignItems="center"
                 style={{
+                    maxWidth: '800px',
+                    maxHeight: '600px',
                     width: '100%',
-                    height: '100%',
+                    height: 'auto',
+                    display: 'flex',
+                    flexDirection: 'column',
                 }}
             >
                 {/* Top Row */}
@@ -44,7 +48,6 @@ export default function Portfolio({ innerRef }) {
                             key={index}
                             style={{
                                 width: '45%',
-                                height: '40%',
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
@@ -77,7 +80,6 @@ export default function Portfolio({ innerRef }) {
                             key={index}
                             style={{
                                 width: '45%',
-                                height: '40%',
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
