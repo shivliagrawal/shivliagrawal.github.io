@@ -19,8 +19,8 @@ export default function Portfolio({ innerRef }) {
                         md={6}
                         key={index}
                         style={{
-                            width: '60%', // Adjust box size
-                            height: '60%', // Adjust box size
+                            width: '45%', // Adjust box size
+                            height: '45%', // Adjust box size
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
