@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shivliagrawal.github.io/static/css/main.5caa54df.css",
-    "main.js": "/shivliagrawal.github.io/static/js/main.fc537ca8.js",
+    "main.js": "/shivliagrawal.github.io/static/js/main.a5cf3c1d.js",
     "static/media/self.png": "/shivliagrawal.github.io/static/media/self.4bfc224b23639d0caf59.png",
     "static/media/mock1.png": "/shivliagrawal.github.io/static/media/mock1.6ad098a7691d4ac53ae6.png",
     "static/media/resume.png": "/shivliagrawal.github.io/static/media/resume.ee51462d1010295dbd6f.png",
@@ -10,10 +10,10 @@
     "static/media/mock4.png": "/shivliagrawal.github.io/static/media/mock4.2b2ba794bc5cd75eb2c1.png",
     "index.html": "/shivliagrawal.github.io/index.html",
     "main.5caa54df.css.map": "/shivliagrawal.github.io/static/css/main.5caa54df.css.map",
-    "main.fc537ca8.js.map": "/shivliagrawal.github.io/static/js/main.fc537ca8.js.map"
+    "main.a5cf3c1d.js.map": "/shivliagrawal.github.io/static/js/main.a5cf3c1d.js.map"
   },
   "entrypoints": [
     "static/css/main.5caa54df.css",
-    "static/js/main.fc537ca8.js"
+    "static/js/main.a5cf3c1d.js"
   ]
 }
