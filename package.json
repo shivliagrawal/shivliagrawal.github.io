@@ -2,7 +2,6 @@
   "name": "shivliPortfolio",
   "version": "2.0.0",
   "private": false,
-  "homepage": "http://shivliagrawal.github.io/shivliagrawal.github.io",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
