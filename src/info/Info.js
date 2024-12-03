@@ -27,7 +27,7 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "Shivli",
+    firstName: "kbj",
     lastName: "Agrawal",
     initials: "SA", // the example uses first and last, but feel free to use three or more if you like.
     position: "Software Dev / Full stack / Frontend Design / Product & Solutions",
