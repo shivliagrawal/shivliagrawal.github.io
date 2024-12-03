@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import IconLink from "./IconLink";
+// import IconLink from "./IconLink";
 import { Box, Button } from "@mui/material";
 
 function PortfolioBlock(props) {
@@ -21,10 +21,12 @@ function PortfolioBlock(props) {
          justifyContent="center" 
          alignItems="center" 
          width="100%" 
-         maxWidth="350px"
+         height="100%"
+         maxWidth="1600px"
+         maxHeight="1000px"
       >
          {/* Image Slider */}
-         <Box position="relative" width="100%" height="200px">
+         <Box position="relative" width="100%" height="100%">
             <Box
                component="img"
                src={images[currentIndex]} // Display current image
@@ -86,9 +88,9 @@ function PortfolioBlock(props) {
             fontSize="1.5rem" 
             py="2rem"
          >
-            <Box p={1} border="2px solid black" borderRadius="25px">
+            {/* <Box p={1} border="2px solid black" borderRadius="25px" display="center" alignItems="center">
                <IconLink link={source} title="Source Code" icon="fa fa-code" />
-            </Box>
+            </Box> */}
          </Box>
       </Box>
    );

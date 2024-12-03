@@ -1,8 +1,16 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
+import mock1 from "../img/project1/mock1.png"
+import mock2 from "../img/project2/mock2.png"
+import mock22 from "../img/project2/mock22.png"
+import mock23 from "../img/project2/mock23.png"
+import mock24 from "../img/project2/mock24.png"
+import mock25 from "../img/project2/mock25.png"
+import mock26 from "../img/project2/mock26.png"
+import mock31 from "../img/project3/mock31.png"
+import mock32 from "../img/project3/mock32.png"
+import mock33 from "../img/project3/mock33.png"
+import mock34 from "../img/project3/mock34.png"
+import mock4 from "../img/project4/mock4.png"
 // import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -27,7 +35,7 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "kbj",
+    firstName: "Shivli",
     lastName: "Agrawal",
     initials: "SA", // the example uses first and last, but feel free to use three or more if you like.
     position: "Software Dev / Full stack / Frontend Design / Product & Solutions",
@@ -41,7 +49,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Undergraduate fksjjela,z Teaching Assistant at Purdue"
+            text: "Undergraduate Teaching Assistant at Purdue"
         },
         {
             emoji: "📧",
@@ -120,39 +128,42 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
 
         {
-            title: "System Monitor",
+            title: "System Monitor (Nov 2024)",
             images: [
-                "/img/project1/mock1.png",
+                mock1,
                 //"/img/project1/image2.png",
             ],
-            source: "https://github.com/shivliagrawal/System-Monitor",
+            // source: "https://github.com/shivliagrawal/System-Monitor",
         },
         {
-            title: "BoilerTutors",
+            title: "BoilerTutors (Sept-Nov 2024)",
             images: [
-                "/img/project2/mock2.png",
-                "/img/project2/mock22.png",
-                "/img/project2/mock23.png",
-                "/img/project2/mock24.png",
-                "/img/project2/mock25.png",
-                "/img/project2/mock26.png",
+                mock2,
+                mock22,
+                mock23,
+                mock24,
+                mock25,
+                mock26,
             ],
-            source: "https://github.com/shivliagrawal/BoilerTutors",
+            // source: "https://github.com/shivliagrawal/BoilerTutors",
         },
         {
-            title: "Database Learning Management System",
+            title: "Database Learning Management System (Mar 2022)",
             images: [
-                "/img/project3/mock3.png",
+                mock31,
+                mock32,
+                mock33,
+                mock34,
                // "/img/project2/image2.png",
             ],
-            source: "https://github.com/shivliagrawal/database-management-system",
+            // source: "https://github.com/shivliagrawal/database-management-system",
         },{
-            title: "E-Commerce Web Application",
+            title: "E-Commerce Web Application (Jun 2023)",
             images: [
-                "/img/project4/mock4.png",
+                mock4,
                // "/img/project2/image2.png",
             ],
-            source: "https://github.com/shivliagrawal?tab=repositories",
+            // source: "https://github.com/shivliagrawal?tab=repositories",
         },
     
     ]

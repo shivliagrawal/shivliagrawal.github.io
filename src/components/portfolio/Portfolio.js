@@ -10,11 +10,11 @@ export default function Portfolio({ innerRef }) {
             ref={innerRef}
             style={{
                 width: '100vw',
-                height: '100vh',
+                height: '90vh',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                paddingTop: '15rem', // Add padding to avoid top cut-off
+                paddingTop: '30rem', // Add padding to avoid top cut-off
                 boxSizing: 'border-box',
             }}
         >
@@ -22,7 +22,7 @@ export default function Portfolio({ innerRef }) {
                 container
                 spacing={3}
                 style={{
-                    maxWidth: '800px',
+                    maxWidth: '1200px',
                     width: '100%',
                 }}
             >
@@ -40,7 +40,7 @@ export default function Portfolio({ innerRef }) {
                     >
                         <PortfolioBlock
                             images={project.images} // Pass multiple images from the info.js
-                            source={project.source}
+                            // source={project.source}
                             title={project.title}
                         />
                     </Grid>
