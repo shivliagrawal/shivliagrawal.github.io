@@ -14,7 +14,7 @@ export default function Portfolio({ innerRef }) {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                paddingTop: '20rem', // Add padding to avoid top cut-off
+                paddingTop: '15rem', // Add padding to avoid top cut-off
                 boxSizing: 'border-box',
             }}
         >
