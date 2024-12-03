@@ -86,7 +86,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Shivli. I'm a Computer Science Senior at Purdue specializing in Software Development Engineering. Check out my resume!",
+    bio: "Hello! I'm Shivli. I'm a Computer Science Senior at Purdue specializing in Software Engineering. Check out my resume!",
     skills:
     {
         proficientWith: [
