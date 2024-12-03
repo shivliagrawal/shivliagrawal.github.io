@@ -40,7 +40,6 @@ export default function Portfolio({ innerRef }) {
                     >
                         <PortfolioBlock
                             image={project.image}
-                            live={project.live}
                             source={project.source}
                             title={project.title}
                         />
