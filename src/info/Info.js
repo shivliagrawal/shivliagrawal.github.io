@@ -41,7 +41,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Undergraduate Teaching Assistant at Purdue"
+            text: "Undergraduate fksjjela,z Teaching Assistant at Purdue"
         },
         {
             emoji: "📧",
