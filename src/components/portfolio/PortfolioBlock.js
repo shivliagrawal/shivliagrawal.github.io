@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import IconLink from "./IconLink";
-import { Box } from "@mui/material";
+import { Box, Button } from "@mui/material";
 
 function PortfolioBlock(props) {
-   const { image, live, source, title } = props;
+   const { images, source, title } = props;
+   const [currentIndex, setCurrentIndex] = useState(0);
+
+   const nextImage = () => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+   };
+
+   const prevImage = () => {
+      setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+   };
 
    return (
       <Box 
@@ -12,25 +21,65 @@ function PortfolioBlock(props) {
          justifyContent="center" 
          alignItems="center" 
          width="100%" 
-         maxWidth="350px" // Limit the width of each block
+         maxWidth="350px"
       >
-         {/* Image Container */}
-         <Box
-            component="img"
-            src={image}
-            alt="mockup"
-            sx={{
-               width: '100%', // Ensure images are consistent in size
-               height: '200px', // Set a fixed height
-               objectFit: 'cover', // Maintain aspect ratio, fill available space
-               borderRadius: '10px', // Optional for rounded corners
-            }}
-         />
+         {/* Image Slider */}
+         <Box position="relative" width="100%" height="200px">
+            <Box
+               component="img"
+               src={images[currentIndex]} // Display current image
+               alt={`Slide ${currentIndex + 1}`}
+               sx={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'flex',
+                  borderRadius: '10px',
+               }}
+            />
+            {/* Navigation Buttons */}
+            {images.length > 1 && (
+               <>
+                  <Button
+                     onClick={prevImage}
+                     sx={{
+                        position: 'absolute',
+                        top: '50%',
+                        left: '5%',
+                        transform: 'translateY(-50%)',
+                        background: 'rgba(0,0,0,0.5)',
+                        color: 'white',
+                        borderRadius: '50%',
+                        minWidth: '30px',
+                        height: '30px',
+                     }}
+                  >
+                     ‹
+                  </Button>
+                  <Button
+                     onClick={nextImage}
+                     sx={{
+                        position: 'absolute',
+                        top: '50%',
+                        right: '5%',
+                        transform: 'translateY(-50%)',
+                        background: 'rgba(0,0,0,0.5)',
+                        color: 'white',
+                        borderRadius: '50%',
+                        minWidth: '30px',
+                        height: '30px',
+                     }}
+                  >
+                     ›
+                  </Button>
+               </>
+            )}
+         </Box>
+
          {/* Title */}
          <h1 style={{ fontSize: '1.5rem', textAlign: 'center', marginTop: '1rem' }}>{title}</h1>
          <Box 
             className="portfolio" 
-            display="flex" 
+            display="center" 
             flexDirection="column" 
             gap="0.5rem"
             alignItems="center" 

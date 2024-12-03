@@ -59,11 +59,11 @@ export const info = {
         //     icon: 'fa fa-instagram',
         //     label: 'instagram'
         // },
-        {
-            link: "https://github.com/shivliagrawal?tab=repositories",
-            icon: "fa fa-github",
-            label: 'github'
-        },
+        // {
+        //     link: "https://github.com/shivliagrawal?tab=repositories",
+        //     icon: "fa fa-github",
+        //     label: 'github'
+        // },
         {
             link: "https://www.linkedin.com/in/shivli-agrawal1407/",
             icon: "fa fa-linkedin",
@@ -116,26 +116,43 @@ export const info = {
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
+    
     portfolio: [ // This is where your portfolio projects will be detailed
+
         {
             title: "System Monitor",
-            source: "https://github.com/shivliagrawal/System-Monitor", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            images: [
+                "/img/project1/mock1.png",
+                //"/img/project1/image2.png",
+            ],
+            source: "https://github.com/shivliagrawal/System-Monitor",
         },
         {
             title: "BoilerTutors",
+            images: [
+                "/img/project2/mock2.png",
+                "/img/project2/mock22.png",
+                "/img/project2/mock23.png",
+                "/img/project2/mock24.png",
+                "/img/project2/mock25.png",
+                "/img/project2/mock26.png",
+            ],
             source: "https://github.com/shivliagrawal/BoilerTutors",
-            image: mock2
         },
         {
             title: "Database Learning Management System",
+            images: [
+                "/img/project3/mock3.png",
+               // "/img/project2/image2.png",
+            ],
             source: "https://github.com/shivliagrawal/database-management-system",
-            image: mock3
-        },
-        {
+        },{
             title: "E-Commerce Web Application",
+            images: [
+                "/img/project4/mock4.png",
+               // "/img/project2/image2.png",
+            ],
             source: "https://github.com/shivliagrawal?tab=repositories",
-            image: mock4
         },
     
     ]

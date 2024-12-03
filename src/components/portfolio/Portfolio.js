@@ -39,7 +39,7 @@ export default function Portfolio({ innerRef }) {
                         }}
                     >
                         <PortfolioBlock
-                            image={project.image}
+                            images={project.images} // Pass multiple images from the info.js
                             source={project.source}
                             title={project.title}
                         />
