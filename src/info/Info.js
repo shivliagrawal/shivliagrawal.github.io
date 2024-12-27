@@ -67,11 +67,11 @@ export const info = {
         //     icon: 'fa fa-instagram',
         //     label: 'instagram'
         // },
-        // {
-        //     link: "https://github.com/shivliagrawal?tab=repositories",
-        //     icon: "fa fa-github",
-        //     label: 'github'
-        // },
+         {
+             link: "https://github.com/shivliagrawal",
+             icon: "fa fa-github",
+             label: 'github'
+         },
         {
             link: "https://www.linkedin.com/in/shivli-agrawal1407/",
             icon: "fa fa-linkedin",
