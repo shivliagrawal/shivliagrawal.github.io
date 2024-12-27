@@ -52,6 +52,10 @@ export const info = {
             text: "Computer Science Junior at Purdue University"
         },
         {
+            emoji: "👩🏻‍🏫",
+            text: "Undergraduate Teaching Assistant"
+        },
+        {
             emoji: "📧",
             text: "agraw185@purdue.edu"
         }
