@@ -10,7 +10,16 @@ import mock31 from "../img/project3/mock31.png"
 import mock32 from "../img/project3/mock32.png"
 import mock33 from "../img/project3/mock33.png"
 import mock34 from "../img/project3/mock34.png"
-import mock4 from "../img/project4/mock4.png"
+import mock41 from "../img/project4/mock41.png"
+import mock42 from "../img/project4/mock42.png"
+import mock43 from "../img/project4/mock43.png"
+import mock44 from "../img/project4/mock44.png"
+import mock45 from "../img/project4/mock45.png"
+import mock46 from "../img/project4/mock46.png"
+import mock47 from "../img/project4/mock47.png"
+import mock48 from "../img/project4/mock48.png"
+import mock49 from "../img/project4/mock49.png"
+import mock410 from "../img/project4/mock410.png"
 // import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -158,9 +167,18 @@ export const info = {
             ],
             // source: "https://github.com/shivliagrawal/database-management-system",
         },{
-            title: "E-Commerce Web Application (Jun 2023)",
+            title: "Nocturnè Marketplace (Jan 2025)",
             images: [
-                mock4,
+                mock41,
+                mock42,
+                mock43,
+                mock44,
+                mock45,
+                mock46,
+                mock47,
+                mock48,
+                mock49,
+                mock410,
                // "/img/project2/image2.png",
             ],
             // source: "https://github.com/shivliagrawal?tab=repositories",
