@@ -76,11 +76,11 @@ export const info = {
         //     icon: 'fa fa-instagram',
         //     label: 'instagram'
         // },
-        // {
-        //     link: "https://github.com/shivliagrawal?tab=repositories",
-        //     icon: "fa fa-github",
-        //     label: 'github'
-        // },
+        {
+            link: "https://github.com/shivliagrawal",
+            icon: "fa fa-github",
+            label: 'github'
+        },
         {
             link: "https://www.linkedin.com/in/shivli-agrawal1407/",
             icon: "fa fa-linkedin",
@@ -137,11 +137,29 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
 
         {
+            title: "Nocturnè Marketplace (Jan 2025)",
+            images: [
+                mock41,
+                mock42,
+                mock43,
+                mock44,
+                mock45,
+                mock46,
+                mock47,
+                mock48,
+                mock49,
+                mock410,
+               // "/img/project2/image2.png",
+            ],
+            // source: "https://github.com/shivliagrawal?tab=repositories",
+        },
+        {
             title: "System Monitor (Nov 2024)",
             images: [
                 mock1,
                 //"/img/project1/image2.png",
             ],
+            description: "This is a detailed description of Project One, highlighting its purpose and features.",
             // source: "https://github.com/shivliagrawal/System-Monitor",
         },
         {
@@ -166,22 +184,6 @@ export const info = {
                // "/img/project2/image2.png",
             ],
             // source: "https://github.com/shivliagrawal/database-management-system",
-        },{
-            title: "Nocturnè Marketplace (Jan 2025)",
-            images: [
-                mock41,
-                mock42,
-                mock43,
-                mock44,
-                mock45,
-                mock46,
-                mock47,
-                mock48,
-                mock49,
-                mock410,
-               // "/img/project2/image2.png",
-            ],
-            // source: "https://github.com/shivliagrawal?tab=repositories",
         },
     
     ]

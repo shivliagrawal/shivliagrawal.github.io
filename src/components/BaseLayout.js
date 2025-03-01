@@ -37,22 +37,24 @@ export default function BaseLayout() {
    }, [])
 
    return (
-      <Box className={darkMode ? Style.dark : Style.light}>
-         <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
-            justifyContent={'space-between'}>
-            <Grid item>
-               <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode} active={active} setActive={setActive} />
+      <div className={darkMode ? Style.dark : Style.light}> {/* Ensure the entire page is inside dark mode */}
+         <Box>
+            <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
+               justifyContent={'space-between'}>
+               <Grid item>
+                  <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode} active={active} setActive={setActive} />
+               </Grid>
+               <Grid item flexGrow={1}>
+                  {singlePage ? <SinglePageRoutes refs={{refHome, refAbout, refPortfolio}}/> : <MultiPageRoutes />}
+               </Grid>
+               <Grid item>
+                  <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
+                     py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
+                  </Box>
+               </Grid>
             </Grid>
-            <Grid item flexGrow={1}>
-               {singlePage ? <SinglePageRoutes refs={{refHome, refAbout, refPortfolio}}/> : <MultiPageRoutes />}
-            </Grid>
-            <Grid item>
-               <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
-                  py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
-               </Box>
-            </Grid>
-         </Grid>
-      </Box>
-   )
+         </Box>
+      </div>
+   );
 }
 

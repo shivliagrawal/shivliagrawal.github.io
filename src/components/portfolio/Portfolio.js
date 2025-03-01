@@ -8,40 +8,46 @@ export default function Portfolio({ innerRef }) {
         <Box
             id="portfolio"
             ref={innerRef}
-            style={{
+            sx={{
                 width: '100vw',
-                height: '90vh',
+                height: '100%',
+                minHeight: '100vh',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                paddingTop: '30rem', // Add padding to avoid top cut-off
+                paddingTop: '5rem', // Adjusted padding
+                paddingBottom: '10rem',
                 boxSizing: 'border-box',
+                
             }}
         >
             <Grid
                 container
-                spacing={3}
-                style={{
-                    maxWidth: '1200px',
+                spacing={5}
+                sx={{
+                    maxWidth: '1400px',
                     width: '100%',
+                    height: '2000px',
                 }}
             >
-                {/* Map each project into its respective grid position */}
                 {info.portfolio.map((project, index) => (
                     <Grid
                         item
-                        xs={6} // Two items per row (6+6 = 12)
+                        xs={12} sm={12} // Now projects take full width on mobile and large screens
                         key={index}
-                        style={{
+                        sx={{
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center',
+                                                marginBottom: '5rem'
                         }}
                     >
                         <PortfolioBlock
-                            images={project.images} // Pass multiple images from the info.js
-                            // source={project.source}
+                            images={project.images}
                             title={project.title}
+                            tools={project.tools}
+                            description={project.description} // Pass description from data
+
                         />
                     </Grid>
                 ))}
