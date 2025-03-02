@@ -61,9 +61,13 @@ export const info = {
             text: "Undergraduate Teaching Assistant at Purdue"
         },
         {
+            emoji: "📢",
+            text: "President of U R Global at Purdue"
+        },
+        {
             emoji: "📧",
             text: "agraw185@purdue.edu"
-        }
+        },
     ],
     socials: [
         // {
