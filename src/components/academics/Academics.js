@@ -154,7 +154,7 @@ export default function Academics() {
             <Box className={Style.teachingExperience}>
                 <Typography variant="h4" className={Style.subheading}>Teaching Experience</Typography>
                 <Typography variant="body1" className={Style.text}>
-                As an Undergraduate Teaching Assistant for Object-Oriented Programming with Java at Purdue University, I have guided over 80 students across seven terms. I lead lab sessions, debug assignments, provide detailed feedback, and track student performance to enhance their understanding of OOP concepts.
+                As an Undergraduate Teaching Assistant for Object-Oriented Programming with Java at Purdue University, I have guided over 100+ students per term for seven terms. I lead lab sessions, debug assignments, provide detailed feedback, and track student performance to enhance their understanding of OOP concepts.
                 
                 </Typography>
                 {/* Image */}
