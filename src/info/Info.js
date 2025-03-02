@@ -151,7 +151,16 @@ export const info = {
                 mock410,
                // "/img/project2/image2.png",
             ],
-            // source: "https://github.com/shivliagrawal?tab=repositories",
+            tools:<ul>
+                <li>Frontend: React.js, Tailwind CSS</li>
+                <li>Backend: Node.js, Express.js</li>
+                <li>Database: MongoDB</li>
+                <li>Search Functionality: WebSockets for live search suggestions</li>
+                <li>External API Integrations: Brand store links for product redirection
+                </li>
+            </ul>,
+            description:"A next-generation e-commerce aggregator inspired by platforms like Amazon and Apple, Nocturne Marketplace offers real-time search, category-based navigation, and a seamless shopping experience. Instead of direct purchases, users are redirected to official brand websites, ensuring authentic transactions.",
+            source: "https://github.com/shivliagrawal/Nocturne",
         },
         {
             title: "System Monitor (Nov 2024)",
@@ -159,8 +168,16 @@ export const info = {
                 mock1,
                 //"/img/project1/image2.png",
             ],
-            description: "This is a detailed description of Project One, highlighting its purpose and features.",
-            // source: "https://github.com/shivliagrawal/System-Monitor",
+            tools: <ul>
+            <li>Programming Language: C/C++</li>
+            <li>GUI Framework: GTK</li>
+            <li>System Data Access: Linux Kernel /proc filesystem</li>
+            <li>Process Management: Unix system calls (fork, exec, read, write)</li>
+            <li>Concurrency: Multithreading with mutex locks and semaphores
+            </li>
+        </ul>,
+            description: "A real-time system monitoring tool built using C and GTK to visualize CPU and memory usage, active processes, and system resource allocation. The tool reads data from the /proc filesystem and allows process management actions like termination.",
+            // source: "Restricted due to course policies",
         },
         {
             title: "BoilerTutors (Sept-Nov 2024)",
@@ -172,7 +189,17 @@ export const info = {
                 mock25,
                 mock26,
             ],
-            // source: "https://github.com/shivliagrawal/BoilerTutors",
+            tools: <ul>
+            <li>Frontend: React.js</li>
+            <li>Backend: Node.js, Express.js</li>
+            <li>Database: MongoDB (for user data), PostgreSQL (for structured data like payments)</li>
+            <li>Authentication: Firebase</li>
+            <li>Real-time Communication: WebSockets (for chat and notifications)
+            </li>
+            <li>APIs: RESTful services for data retrieval and user interactions</li>
+        </ul>,
+            description: "A web-based platform designed to consolidate study resources for Purdue students, integrating tutoring schedules, office hours, syllabi, and other course-related materials into a single, easy-to-navigate interface. It enables students to find help efficiently, engage in discussions, and manage their academic schedules.",
+            source: "https://github.com/shivliagrawal/BoilerTutorsShivli",
         },
         {
             title: "Database Learning Management System (Mar 2022)",
@@ -183,6 +210,14 @@ export const info = {
                 mock34,
                // "/img/project2/image2.png",
             ],
+            tools: <ul>
+            <li>Frontend: Java (GUI)</li>
+            <li>Backend: JAVA, File I/0, Multithreading</li>
+            <li>Database: SQLite/PostgreSQL</li>
+            <li>Concurrency Features: WebSockets for real-time updates</li>
+            <li>Automated Grading: Custom logic for quiz evaluations
+            </li>
+        </ul>,
             // source: "https://github.com/shivliagrawal/database-management-system",
         },
     

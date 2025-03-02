@@ -15,7 +15,7 @@ export default function Portfolio({ innerRef }) {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                paddingTop: '5rem', // Adjusted padding
+                paddingTop: '2rem', // Adjusted padding
                 paddingBottom: '10rem',
                 boxSizing: 'border-box',
                 
@@ -39,14 +39,15 @@ export default function Portfolio({ innerRef }) {
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center',
-                                                marginBottom: '5rem'
+                                                marginBottom: '1rem'
                         }}
                     >
                         <PortfolioBlock
                             images={project.images}
+                            source={project.source}
                             title={project.title}
-                            tools={project.tools}
                             description={project.description} // Pass description from data
+                            tools={project.tools}
 
                         />
                     </Grid>
