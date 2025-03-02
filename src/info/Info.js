@@ -214,6 +214,7 @@ export const info = {
                 mock34,
                // "/img/project2/image2.png",
             ],
+            description: "A GUI-based Learning Management System designed to support student-teacher interaction, featuring concurrent quiz-taking, automated grading, and collaborative tools for academic management. It enhances the efficiency of online learning with structured content and seamless assessments.",
             tools: <ul>
             <li>Frontend: Java (GUI)</li>
             <li>Backend: JAVA, File I/0, Multithreading</li>
