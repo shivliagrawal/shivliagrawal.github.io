@@ -1,6 +1,7 @@
 import Home from "./home/Home";
 import About from "./about/About";
-import Resume from "./resume/Resume"
+import Resume from "./resume/Resume";
+import Academics from "./academics/Academics";
 import Portfolio from "./portfolio/Portfolio";
 import React from 'react';
 import { Box } from "@mui/material";
@@ -11,5 +12,6 @@ export default function SinglePageRoutes({refs}) {
         <About innerRef={refs.refAbout}/>
         <Resume innerRef={refs.refResume}/>
         <Portfolio innerRef={refs.refPortfolio}/>
+        <Portfolio innerRef={refs.refAcademics}/>
     </Box>)
 }

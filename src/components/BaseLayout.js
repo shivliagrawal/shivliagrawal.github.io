@@ -15,6 +15,7 @@ export default function BaseLayout() {
    const refHome = useScrollObserver(setActive);
    const refAbout = useScrollObserver(setActive);
    const refPortfolio = useScrollObserver(setActive);
+   const refAcademics = useScrollObserver(setActive);
    let [darkMode, setDarkMode] = useState(false);
 
 

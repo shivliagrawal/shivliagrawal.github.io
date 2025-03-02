@@ -24,6 +24,11 @@ const links = [
         active: 'resume'
     },
     {
+        name: 'Academics',
+        to: 'academics',
+        active: 'academics'
+    },
+    {
         name: 'Projects',
         to: 'portfolio',
         active: 'portfolio'
