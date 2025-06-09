@@ -47,7 +47,7 @@ export const info = {
     firstName: "Shivli",
     lastName: "Agrawal",
     initials: "SA", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Software Dev / Full stack / Frontend Design / Product & Solutions",
+    position: "Software Dev / Full stack / Web Dev / AI/ML / Product & Solutions",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
@@ -57,8 +57,12 @@ export const info = {
             text: 'based in the US'
         },
         {
+            emoji: "📚",
+            text: "Computer Science Senior at Purdue"
+        },
+        {
             emoji: "💼",
-            text: "Undergraduate Teaching Assistant at Purdue"
+            text: "IT intern at Cummins Inc. \nUndergraduate Teaching Assistant at Purdue"
         },
         {
             emoji: "📢",
