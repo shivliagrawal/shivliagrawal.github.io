@@ -62,7 +62,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "IT intern at Cummins Inc. \nUndergraduate Teaching Assistant at Purdue"
+            text: "IT intern at Cummins Inc. & \nUndergraduate Teaching Assistant at Purdue"
         },
         {
             emoji: "📢",
